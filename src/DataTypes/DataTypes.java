@@ -1,3 +1,5 @@
+package DataTypes;
+
 public class DataTypes {
     public static void main(String[] args) {
         int myNum = 9; // integer
@@ -5,6 +7,8 @@ public class DataTypes {
         char myLetter = 'A'; // char
         boolean myBool = false;  // boolean
         String myText = "Hello"; // String
+
+        System.out.println(myNum + " " + myFloatNum + " " + myLetter + " " + myBool + " " + myText);
 
     }
 }
