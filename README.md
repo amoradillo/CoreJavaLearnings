@@ -1,1 +1,3 @@
 # CoreJavaLearnings
+## Data Types
+## Looping
