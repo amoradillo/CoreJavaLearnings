@@ -5,7 +5,8 @@ public class IfStatements {
 
         // if statements = performs a block of code if it's condition evaluates to be true
 
-        int age = 75;
+        int age = 42;
+
         if(age >= 75)
         {
             System.out.println("Ok boomer");
@@ -20,7 +21,7 @@ public class IfStatements {
         }
         else
         {
-            System.out.println("Ok boomer");
+            System.out.println("BaBY");
         }
 
 
