@@ -30,13 +30,36 @@ public class ArrayListNumbers
         totalNumbers.add(numbers2);
         totalNumbers.add(numbers3);
 
+        System.out.println("Descending Order");
 
-
-        for(int i=totalNumbers.size(); i >= 0 ; i--)
+        for(int i=0; i < totalNumbers.size() ; i++)
         {
-            for (int j = 0; totalNumbers.get(i).size() >= j; j++)
+            for (int j = 0; j < totalNumbers.get(i).size(); j++)
             {
+                    if (totalNumbers.get(i).get(j) > 0.6)
+                    {
+                        System.out.print(totalNumbers.get(i).get(j) + " ");
+                    }
+
+            }
+            System.out.println();
+
+        }
+
+
+
+        System.out.println("Ascending Order");
+
+
+        for(int i=totalNumbers.size()-1; i >= 0  ; i--)
+        {
+            for (int j = totalNumbers.get(i).size()-1; j >= 0 ; j--)
+            {
+                if (totalNumbers.get(i).get(j) > 0.6)
+                {
                     System.out.print(totalNumbers.get(i).get(j) + " ");
+
+                }
 
             }
             System.out.println();
